@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="./img-folder/todo app heading.png" />
+    <title>TODO</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo-div">
+        <img src="./img-folder/logo img.png" alt="logo" class="logo" />
+        <div class="space-div">
+          <img src="./img-folder/moon.png" alt="moon" class="moon" />
+          <img src="./img-folder/sun.png" alt="sun" class="sun" />
+        </div>
+      </div>
+      <form action="" class="input-form">
+        <input type="checkbox" name="" id="check" class="custom-checkbox" />
+        <label for="check"></label>
+        <input type="text" placeholder="Create a new todo…" id="input" />
+      </form>
+    </header>
+    <main>
+      <ul class="ul"></ul>
+      <div class="main-information">
+        <p class="items"><span class="number">0</span> items left</p>
+        <div class="hover-div">
+          <p class="all">All</p>
+          <p class="active">Active</p>
+          <p class="complete">Completed</p>
+          <p class="clear">Clear Completed</p>
+        </div>
+      </div>
+    </main>
+    <section class="section">
+      <p class="all-section">All</p>
+      <p class="active-section">Active</p>
+      <p class="complete-section">Completed</p>
+    </section>
+    <footer>
+      <p>Drag and drop to reorder list</p>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
